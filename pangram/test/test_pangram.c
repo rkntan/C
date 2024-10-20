@@ -4,9 +4,6 @@
 #include <stdio.h>
 #include <stddef.h>
 
-#define ARRAY_SIZE(arr) (sizeof(arr) / sizeof(arr[0]))
-#define TOP_SCORES_ARRAY_SIZE (3)
-
 void setUp(void)
 {
     // Set up any preconditions for your tests here.
