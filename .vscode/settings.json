@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "high_scores.h": "c"
+        "high_scores.h": "c",
+        "stdio.h": "c",
+        "unity.h": "c",
+        "pangram.h": "c",
+        "stdbool.h": "c"
     }
 }
