@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "unity.h": "c",
         "pangram.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "resistor_color_trio.h": "c"
     }
 }

@@ -26,7 +26,7 @@ typedef enum {
 // Struct to hold the resistor value and its unit
 typedef struct {
     uint16_t value;       // Resistor value (e.g., 680 for 680 ohms)
-    resistor_unit_t unit; // Unit for the resistor value (e.g., OHMS, KILOOHMS, MEGAOHMS)
+    resistor_unit_t unit; // Unit for the resistor value (e.g., OHMS, KILOOHMS, MEGAOHMS, GIGAOHMS)
 } resistor_value_t;
 
 resistor_value_t color_code(const resistor_band_t bands[]);
