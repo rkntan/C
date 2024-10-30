@@ -23,12 +23,14 @@ A binary search algorithm finds an item in a list by repeatedly splitting it in 
 The algorithm looks like this:
 
 Find the middle element of a sorted list and compare it with the item we're looking for.
-If the middle element is our item, then we're done!
-If the middle element is greater than our item, we can eliminate that element and all the elements after it.
-If the middle element is less than our item, we can eliminate that element and all the elements before it.
-If every element of the list has been eliminated then the item is not in the list.
-Otherwise, repeat the process on the part of the list that has not been eliminated.
-Here's an example:
+
+- If the middle element is our item, then we're done!
+- If the middle element is greater than our item, we can eliminate that element and all the elements after it.
+- If the middle element is less than our item, we can eliminate that element and all the elements before it.
+- If every element of the list has been eliminated then the item is not in the list.
+- Otherwise, repeat the process on the part of the list that has not been eliminated.
+
+### example
 
 Let's say we're looking for the number 23 in the following sorted list: [4, 8, 12, 16, 23, 28, 32].
 
