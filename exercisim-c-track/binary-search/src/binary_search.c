@@ -14,7 +14,7 @@ const int *binary_search(int value, const int *arr, size_t length) {
         e. otherwise, repat the process on the part of the list that has not been eliminated.
      */
 
-    if (arr == NULL || arr[0] == '\0' || length == 0 || value > arr[length - 1] || value < arr[0]) {
+    if (arr == NULL || length == 0 || value > arr[length - 1] || value < arr[0]) {
         return NULL;
     }
     // aproach 1:
