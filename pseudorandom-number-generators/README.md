@@ -1,3 +1,3 @@
 # PRNG - pseudorandom number generatorS
 
-![dilbert.com](/img/dilbert.png)
+![dilbert.com](img/dilbert.png)
